@@ -11,7 +11,12 @@ namespace RPS_Game1.Game
         Scissors
     }
 
-    public class Player
+    public interface IPlayer
+    {
+        Task<Moves> GetNextMove();
+    }
+
+    public class DefaultPlayer : IPlayer
     {
         public virtual Task<Moves> GetNextMove()
         {
@@ -20,7 +25,7 @@ namespace RPS_Game1.Game
     }
 
 
-    public class HumanPlayer : Player
+    public class HumanPlayer : DefaultPlayer
     {
         private IInputProvider InputProvider { get; }
 
@@ -48,7 +53,7 @@ namespace RPS_Game1.Game
     /// <summary>
     /// The Random Computer player should automatically select one R, P, S at random
     /// </summary>
-    public class ComputerPlayer : Player
+    public class ComputerPlayer : DefaultPlayer
     {
         public override Task<Moves> GetNextMove()
         {
