@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPS_Game1", "RPS_Game1\RPS_Game1.csproj", "{74307E42-F8D4-4C47-B2D6-F6B207A315F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS_Games1.Tests", "..\RPS_Games1.Tests\RPS_Games1.Tests.csproj", "{65CBED14-3383-4740-9D41-F5CB88437025}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS_Games1.Specs", "RPS_Game1.Specs\RPS_Games1.Specs\RPS_Games1.Specs.csproj", "{CB26F34E-577D-4C7F-91C8-8E97ECBE0DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1694399-7919-4274-8B98-704AC6C0FA93}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +24,10 @@ Global
 		{74307E42-F8D4-4C47-B2D6-F6B207A315F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74307E42-F8D4-4C47-B2D6-F6B207A315F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74307E42-F8D4-4C47-B2D6-F6B207A315F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65CBED14-3383-4740-9D41-F5CB88437025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65CBED14-3383-4740-9D41-F5CB88437025}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65CBED14-3383-4740-9D41-F5CB88437025}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65CBED14-3383-4740-9D41-F5CB88437025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB26F34E-577D-4C7F-91C8-8E97ECBE0DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB26F34E-577D-4C7F-91C8-8E97ECBE0DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB26F34E-577D-4C7F-91C8-8E97ECBE0DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB26F34E-577D-4C7F-91C8-8E97ECBE0DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
