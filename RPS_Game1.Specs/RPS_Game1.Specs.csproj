@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\RPS_Game1\RPS_Game1.csproj" />
+    <ProjectReference Include="..\RPS_Game1\RPS_Game1.csproj" />
   </ItemGroup>
 
 </Project>
